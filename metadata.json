@@ -1,0 +1,8 @@
+{
+  "name": "HabitChain AI – Personal Habit Pattern & Dependency Analyzer",
+  "description": "A modern personal habit pattern and dependency analyzer that explores observed statistical associations, temporal chains, and consistency flow between habits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

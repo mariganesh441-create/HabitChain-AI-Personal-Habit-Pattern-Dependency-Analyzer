@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    --bg-primary: #0B1020;
+    --card-bg: #131B33;
+    --card-border: #1E294B;
+    --accent-purple: #7C3AED;
+    --accent-teal: #2DD4BF;
+    --accent-pink: #F472B6;
+  }
+
+  body {
+    background-color: #0B1020;
+    color: #F1F5F9;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Custom scrollbars for clean dashboard appearance */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B1020;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E294B;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2E3E6B;
+}
+
+/* Subtle glow utilities */
+.glow-purple {
+  box-shadow: 0 0 16px -2px rgba(124, 58, 237, 0.25);
+}
+
+.glow-teal {
+  box-shadow: 0 0 16px -2px rgba(45, 212, 191, 0.25);
+}
+
+.glow-pink {
+  box-shadow: 0 0 16px -2px rgba(244, 114, 182, 0.25);
+}
+
